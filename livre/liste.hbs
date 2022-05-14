@@ -1,0 +1,22 @@
+<table class=="table table-striped">
+  <thead>
+    <tr>
+      <th>isbn</th>
+      <th>titre</th>
+      <th>auteur</th>
+      <th>categorie</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    {{#each list}}
+    <tr>
+      <td>{{this.isbn}}</td>
+      <td>{{this.titre}}</td>
+      <td>{{this.auteur}}</td>
+      <td>{{this.categorie}}</td>
+      
+    </tr>
+    {{each}}
+  </tbody>
+</table>
